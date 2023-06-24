@@ -1,0 +1,118 @@
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    gap: 50px;
+    
+    
+}
+.card-info {
+    background-color: white;
+    padding: 17px;
+    border-radius: 10px;
+    height: 200px;
+    width: 230px;
+    transition: all 0.2s;
+    border-radius: 24px;
+    
+
+}
+
+.imge-card {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.card div h3 {
+    text-align: end;
+    margin-right: 15px;
+
+    
+} 
+.card div p {
+    text-align: end;
+    padding-bottom: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    
+    
+}
+.bu {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 4px;
+    margin-top: 5px;
+    margin-right: 10px;
+
+}
+.card div button {
+    border-style: solid;
+    border-color: #7e56cf;
+    background-color: #7e56cf;
+    padding: 10px;
+    color: white;
+    border-radius: 3px;
+    font-size: 13px;
+    transition: all 0.1s;
+    
+    
+}
+
+.card div button:hover {
+    outline: 2.8px solid #7e56cf;
+    outline-offset: 2.8px;
+}
+
+
+
+.icon-card {
+    margin-bottom: -4px;
+    padding-right: 2px;
+}
+.svg-icon {
+    margin: 10px;
+}
+@media only screen and (max-width: 680px) {
+    ::-webkit-scrollbar-thumb {
+        display: none;
+
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #ffffff;
+      }
+    .card {
+        display: flex;
+        overflow-x: auto;
+        height: 320px;
+        flex-direction: column;
+        padding: 20px;
+        padding-bottom: 120px;
+        padding-top: 120px;
+        justify-content: end;
+    }
+    .card-info {
+        min-width: 220px;
+        height: 200px;
+        line-height: 20px;
+        --hover-shadows: 0px 0px 10px #7e56cf,
+                        0px 0px 10px #7e56cf;
+    }
+    .card-info:hover {
+        box-shadow: var(--hover-shadows);
+        outline: 3.8px solid #7e56cf;
+        outline-offset: 3.8px;
+    
+    
+        }
+    
+
+    }
+    
+   

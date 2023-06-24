@@ -1,0 +1,43 @@
+.img-sit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+  }
+  .img-sit-imge {
+    height: 350px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 3px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .img-sit-imge:hover{
+    height: 370px;
+    width: 270px;
+    opacity: 0.9;
+  }
+  .imge-h1 {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+  }
+  .imge-h1 h1 {
+    color: hsla(242,100%,70%,1);
+  }
+  @media only screen and (max-width: 716px) {
+    .img-sit {
+      margin-left: 0px;
+    margin-right: 0px;
+    }
+  }

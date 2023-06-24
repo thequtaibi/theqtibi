@@ -1,0 +1,120 @@
+footer {
+    margin: 35px;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    
+  } 
+.info-mell {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  .mall-send {
+    display: flex;
+    gap: 5px;
+  }
+  .p-info {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  .text-input {
+    text-align: end;
+    padding: 10px;
+    border-style: none;
+    border-radius: 3px;
+    font-family: 'Tajawal', sans-serif;
+    
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  .text-input:hover {
+    opacity: 0.8;
+  }  
+  .info-send-bu {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: none;
+    border-radius: 3px;
+    background-color: white;
+    font-family: 'Tajawal', sans-serif;
+    margin-top: -10px;
+    
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  .info-send-bu:hover {
+    opacity: 0.8;
+  }
+  .Social_media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  .Social_media a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    transition: all 0.5s;
+  }
+  .Social_media a:hover {
+    font-size: 20px;
+  }
+  .Rights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .Rights p {
+    color: white;
+    
+    
+  }
+  @media only screen and (max-width: 744px) {
+    .mall-send {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .p-info {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+  }
+  .text-input {
+    text-align: end;
+    padding: 15px;
+    border-style: none;
+    border-radius: 3px;
+    font-family: 'Tajawal', sans-serif;
+    box-shadow: 0px 0px 0px;
+    cursor: pointer;
+    padding-left: 200px;
+    margin-bottom: 11px;
+
+  }
+  .info-send-bu {
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-style: none;
+    border-radius: 3px;
+    background-color: white;
+    font-family: 'Tajawal', sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  }
